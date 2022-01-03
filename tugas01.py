@@ -16,17 +16,17 @@ def decript(chipertext, key):
 
 def main():
     print('Pilih Menu: \n1. Enkripsi\n2. Dekripsi')
-    pilihan = int(input('Pilihan: '))
+    pilihan = int(input('Input Pilihan: '))
 
     if pilihan == 1:
-        plaintext = str(input('Masukkan plaintext: '))
-        key = str(input('Masukkan key: '))
+        plaintext = str(input('Input plaintext: '))
+        key = str(input('Input key: '))
 
         print('Plaintext: ', plaintext)
         print('Enkripsi: ', encript(plaintext, key))
     elif pilihan == 2:
-        chipertext = str(input('Masukkan chipertext: '))
-        key = str(input('Masukkan key: '))
+        chipertext = str(input('Input chipertext: '))
+        key = str(input('Input key: '))
 
         print('Chipertext: ', chipertext)
         print('Dekripsi: ', decript(chipertext, key))
